@@ -76,6 +76,10 @@ frontendControllers = {
     });
   },
 
+  'apiDoc': function(req, res) {
+    res.render('apiDoc');
+  },
+
   'profile': function(req, res) {
       req.session.passport.userType = "user";
 
